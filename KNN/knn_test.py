@@ -65,7 +65,7 @@ new_data2 = np.array([
 
 # Sklearn
 y_predict1 = clf.predict(new_data)
-print("-------NEW DATA-------")
+print("-------NEW DATA1-------")
 print(f"data 1:{classes[y_predict1[0]]}")
 print(f"data 2:{classes[y_predict1[1]]}")
 
@@ -79,7 +79,7 @@ print(f"data 2:{classes[y_predict2[1]]}")
 
 # Sklearn
 y_predict3 = clf.predict(new_data2)
-print("-------NEW DATA-------")
+print("-------NEW DATA2-------")
 print(f"data 1:{classes[y_predict3[0]]}")
 print(f"data 2:{classes[y_predict3[1]]}")
 
